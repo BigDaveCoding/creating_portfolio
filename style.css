@@ -150,3 +150,33 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    border: 2px solid;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid; */
+    gap: 5rem;
+    height: 50vh;
+}
+
+#profile-picture {
+    width: 320px;
+    height: auto;
+    
+}
+
+.section__pic_container {
+    justify-content: center;
+}
