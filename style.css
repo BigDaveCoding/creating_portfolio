@@ -57,7 +57,16 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: rgb(0, 110, 0);
     text-decoration: underline;
-    text-underline-offset: 1rem;
+    text-underline-offset: 0.75rem;
+    text-decoration-color: rgb(0, 110, 0);
+}
+
+.logo-nav-name {
+    font-size: 2rem;
+}
+
+.logo-nav-name:hover {
+    cursor: default;
 }
