@@ -17,3 +17,23 @@
 body {
     font-family: "kode-mono", monospace ;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Transiton */
+
+a,
+.btn {
+    transition: all 300ms ease;
+}
+
+nav,
+.nav-links {
+    display: flex;
+}
