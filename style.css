@@ -172,8 +172,8 @@ section {
 }
 
 #profile-picture {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
 
@@ -304,8 +304,12 @@ section {
 
 .about_me_text_container, p {
     text-align: justify;
-    color: black;
+    /* color: black; */
     
+}
+
+.about_me_text {
+    color: black;
 }
 
 #about_me_pic {
