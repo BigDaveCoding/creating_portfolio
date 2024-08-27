@@ -295,7 +295,7 @@ section {
     text-align: center;
 }
 
-.about_me_lists, li {
+.about_me_lists li {
     margin-top: 0.5rem;
     list-style: square;
     text-align: center;
