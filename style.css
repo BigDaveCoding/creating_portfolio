@@ -332,7 +332,8 @@ section {
     border-radius: 5rem;
 }
 
-.icon {
+.icon,
+.skills_icon {
     height: 3rem;
     width: auto;
 }
