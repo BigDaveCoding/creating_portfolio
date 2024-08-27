@@ -151,6 +151,18 @@ a:hover {
     transform: none;
 }
 
+#arrow_icon {
+    height: 4rem;
+    width: auto;
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+#arrow_icon:hover {
+    cursor: pointer;
+}
+
 
 section {
     padding-top: 4vh;
@@ -165,6 +177,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 10rem;
