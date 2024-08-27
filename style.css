@@ -211,7 +211,8 @@ section {
 }
 
 .profile_title,
-.about_me_title {
+.about_me_title,
+.skills_title {
     font-size: 3.25rem;
     font-weight: 700;
     text-align: center;
@@ -334,4 +335,42 @@ section {
 .icon {
     height: 3rem;
     width: auto;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+    position: relative;
+}
+
+.details_containers {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* border: 2px red dotted; */
+}
+
+.skills_sub_title {
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.article_container {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    /* margin: 2rem; */
+}
+
+.skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.skills_list li {
+    list-style: square;
 }
