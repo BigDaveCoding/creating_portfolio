@@ -158,7 +158,7 @@ section {
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-    /* border: 2px solid; */
+    
 }
 
 /* PROFILE SECTION */
@@ -177,8 +177,10 @@ section {
 }
 
 .section__pic_container {
+    /* display: flex; */
     justify-content: center;
     margin: auto 0;
+    /* border: 2px solid black; */
 }
 
 .section__text {
@@ -186,16 +188,19 @@ section {
     text-align: center;
 }
 
-.section__text__p1 {
+.section__text__p1, 
+.section__text__about_me_p1 {
     font-weight: 500;
-    /* text-align: center; */
+    text-align: center;
     font-size: 1.4rem;
     margin-bottom: 2rem;
 }
 
-.profile_title {
+.profile_title,
+.about_me_title {
     font-size: 3.25rem;
     font-weight: 700;
+    text-align: center;
     /* margin-top: 0.5rem; */
     /* margin-bottom: 0.5rem; */
 }
@@ -243,4 +248,71 @@ section {
 #profile_github_logo:hover {
     cursor: pointer;
     
+}
+
+/* ABOUT ME SECTION */
+
+#about_me {
+    position: relative;
+    margin-top: 5vh;
+}
+
+.about_me_title {
+    margin-bottom: 5rem;
+}
+
+.section_container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    height: 50%;
+}
+
+.about_containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about_details_container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_containers,
+.about_details_container {
+    display: flex;
+}
+
+.details_container {
+    padding: 1rem 2rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(0, 110, 0) 0.1rem solid;
+    text-align: center;
+}
+
+.about_me_lists, li {
+    margin-top: 0.5rem;
+    list-style: square;
+    text-align: center;
+    gap: 3rem;
+}
+
+.about_me_text_container, p {
+    text-align: justify;
+    color: black;
+    
+}
+
+#about_me_pic {
+    width: 350px;
+    height: auto;
+    border-radius: 5rem;
+}
+
+.icon {
+    height: 3rem;
+    width: auto;
 }
