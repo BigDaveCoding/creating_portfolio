@@ -387,4 +387,5 @@ section {
 
 .skills_list li {
     list-style: square;
+    padding: 0.25rem;
 }
